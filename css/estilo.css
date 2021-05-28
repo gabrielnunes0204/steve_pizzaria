@@ -1,0 +1,76 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+.logo {
+     font-family: 'Merienda One', cursive;
+}
+
+.menu {
+     align-items: center;
+}
+
+.slogan {
+     padding-top: 80px;
+}
+
+#pizzas {
+     font-family: 'Merienda One', cursive;
+}
+
+.pizza {
+     max-width: 250px;
+}
+
+.fechar {
+     padding: 7px 8px;
+     background-color: #DC3545;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+}
+
+.fechar:hover {
+     background-color: #ce1629;
+     cursor: pointer;
+}
+
+.adicionar {
+     padding: 10px 8px;
+     background-color: #28A745;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+}
+
+.adicionar:hover {
+     background-color: #28A745;
+}
+
+@media(max-width: 1020px){
+     .menu {
+          align-items: flex-start;
+          padding: 0px;
+     }
+
+     .pizza {
+          max-width: 200px;
+          margin: auto;
+          text-align: center;
+     }
+
+     .pizza-modal {
+          width: 200px;
+     }
+
+     .div-pizza {
+          margin: auto;
+          text-align: center;
+     }
+
+	.p-anuncio {
+		text-align: center;
+	}
+}
