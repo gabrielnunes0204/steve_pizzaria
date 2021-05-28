@@ -4,7 +4,7 @@
 <img src="images/prints/02.png">
 <img src="images/prints/03.png">
 
-<div style="background: #333; color: #ddd; text-align: center; font-family: Arial;">
+<div style="text-align: center; font-family: Arial;">
 	<p style="font-size: 1.25rem; font-family: Arial; font-weight: bold;">
 		&#10003; HTML
 	</p>
